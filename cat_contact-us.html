@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+        <title> Cat </title>
+        <link rel="icon" type="image/x-icon" href="icons8-black-cat-100.png">
+        <link rel="stylesheet" href="catstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/9a8be46e78.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header2">
+            <nav>
+                <a href ="index.html"><img src="cat_image/logo1.png" width = 70px height=40px></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="cat_index.html">HOME</a></li>
+                        <li><a href="cat_health.html">Health</a></li>
+                        <li><a href="cat_pictures.html">Pictures</a></li>
+                        <li><a href="cat_food.html">Food</a></li>
+                        <li><a href="cat_contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick ="showMenu()" ></i>
+            </nav>
+           <h1> Contact us</h1>
+        </section>
+ <!------contact us-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53396.
+    78409726114!2d75.73808400035253!3d26.900217504661153!2m3
+    !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0
+    x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2
+    C%20Rajasthan!5e0!3m2!1sen!2sin!4v1650458334490!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+ <section class="contact-us">
+     <div class="row1">
+         <div class="contact-col">
+            <div>
+                 <i class="fa fa-home"></i>
+                <span>
+                     <h5>XYZ Road, ABC Building</h5>
+                     <p>Jaipur,Rajasthan,IN</p>
+                </span>
+            </div>
+             <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                   <h5>+91735713422 </h5>
+                     <p>Monday to Saturday,10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>kvijay66071@gmail.com</h5>
+                    <p>Email to your query</p>
+                 </span>
+            </div></div>
+            
+           
+     </div>
+ </section>
+
+  <!------ Footer------->
+
+  <section class="footer">
+
+    <h4>About US</h4>
+    <p>  this is me from jaipur</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+    <p>Developed with <i class="fa fa-heart-o"></i> by Vijay Kumar</p>
+  </section>
+
+
+  <!------ JS for toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>

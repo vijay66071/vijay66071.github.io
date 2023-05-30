@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+        <title> Cat </title>
+        <link rel="icon" type="image/x-icon" href="icons8-black-cat-100.png">
+        <link rel="stylesheet" href="catstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/9a8be46e78.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href ="index.html"><img src="cat_image/logo1.png" width = 70px height=40px></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="cat_index.html">HOME</a></li>
+                        <li><a href="cat_health.html">Health</a></li>
+                        <li><a href="cat_pictures.html">Pictures</a></li>
+                        <li><a href="cat_food.html">Food</a></li>
+                        <li><a href="cat_contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick ="showMenu()" ></i>
+            </nav>
+            <h1> Health of Cat</h1>
+        </section>
+ <!-------health content-->
+  
+<section class="healt-cat">
+
+    <div class="row-cat">
+        <div class="about-col">
+
+            <img src="cat_image/catdoctor.jpg" class="about-col floating-image right">
+        </div>
+        <div class="about-col">
+            <h1>Making Cat Health Job One Means Staying Informed</h1>
+                <p>Cat health is a broad, but vital topic. As a cat owner, that means that keeping your cat healthy involves a lot of difficult choices.
+
+                    Looking out for your cat's health means keeping on top of
+                     everything from the basics, such as choosing the
+                      right premium cat food, to the more complex
+                       issues such as vaccination schedules, cat
+                        behavior problems, and on and on.Medicine, as we know, is not an exact science, it is an ongoing process. The practice of pet medicine is no different.
+
+                        One problem though... your cat can't tell you or your vet what, if anything is wrong with her.
+                        
+                        This makes it critical that you be informed, as well as observant. You need to keep an eye on your cat and pay attention to anything that might seem abnormal. Anything out of the ordinary could indicate a possible cat health issue.
+                        
+                        Pay close attention to your cat's routines. 
+                        Get familiar with your cat's habits, such as
+                         eating, drinking, sleeping, and litter box use.
+                          Your cat's behavior, as well, needs to be closely 
+                          watched. For some tips, see this cat symptoms 
+                          page, or click here for a complete ebook on the subject.
+                    </p>
+                        <a href="" class="hero-btn red-btn">Read more</a>
+                    </div>
+        
+    </div>
+</section>
+ 
+
+  <!------ Footer------->
+
+  <section class="footer">
+
+    <h4>About US</h4>
+    <p>  this is me from jaipur</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+    <p>Developed with <i class="fa fa-heart-o"></i> by Vijay Kumar</p>
+  </section>
+
+
+  <!------ JS for toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>

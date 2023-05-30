@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+        <title> Cat </title>
+        <link rel="icon" type="image/x-icon" href="icons8-black-cat-100.png">
+        <link rel="stylesheet" href="catstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/9a8be46e78.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header1">
+            <nav>
+                <a href ="index.html"><img src="cat_image/logo1.png" width = 70px height=40px></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="cat_index.html">HOME</a></li>
+                        <li><a href="cat_health.html">Health</a></li>
+                        <li><a href="cat_pictures.html">Pictures</a></li>
+                        <li><a href="cat_food.html">Food</a></li>
+                        <li><a href="cat_contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick ="showMenu()" ></i>
+            </nav>
+           <h1> Cat Food</h1>
+        </section>
+ <!------Cat food-->
+<section class="food">
+    <div class="food.detail">
+    <h1>What's The Best Cat Food? The Search Is On</h1>
+    <p>
+        Finding the best cat food to feed your feline friend is an important, but somewhat difficult chore. Pet food labels
+        may be deceiving, especially if you're not sure what to look for.
+        
+        As a cat owner, you're fully responsible for your cat's well being, and therefore faced with numerous decisions 
+        that affect your cat's health. Which vaccinations to give, selecting a vet, and spay/neuter decisions are all important.
+        
+        Have a favorite cat food that has worked well for you and your cat? Let other cat lovers know about it by adding
+        to our cat food reviews.
+        It might be argued, however, that providing the right nutrition <br>for your cat is the biggest cat health decision of all.
+
+        You are what you eat, even if you're a cat. Especially if you're a cat.
+         
+        Yet, this is possibly one of the subjects that most cat owners know the least about.
+         
+        Some would say, of course, that their cat tells them what food to buy. If you have a finicky 
+        Morris of your own at home, you know how it goes.
+         
+        In this series, we'll dig deeper into this topic and try to answer some tough questions,
+        and make your job as a cat parent a bit easier.
+        Join us as we go in search of the best cat food.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <!----comment-->
+
+</section>
+
+ 
+
+  <!------ Footer------->
+
+  <section class="footer">
+
+    <h4>About US</h4>
+    <p>  this is me from jaipur</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+    <p>Developed with <i class="fa fa-heart-o"></i> by Vijay Kumar</p>
+  </section>
+
+
+  <!------ JS for toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>

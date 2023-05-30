@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name= "viewport" content="with=device-width, initial-scale=1.0">
+        <title> Cat </title>
+        <link rel="icon" type="image/x-icon" href="icons8-black-cat-100.png">
+        <link rel="stylesheet" href="catstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/9a8be46e78.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href ="index.html"><img src="cat_image/logo1.png" width = 70px height=40px></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="cat_index.html">HOME</a></li>
+                        <li><a href="cat_health.html">Health</a></li>
+                        <li><a href="cat_pictures.html">Pictures</a></li>
+                        <li><a href="cat_food.html">Food</a></li>
+                        <li><a href="cat_contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick ="showMenu()" ></i>
+            </nav>
+           <h1> Cat pictures</h1>
+        </section>
+ <!------Caat pictures-->
+
+ <section class="pictures">
+    <div class="row">
+        <div class="column">
+            <img src="cat_image/32061.jpg"  width="50%">
+             
+        </div>
+        <div class="column">
+         <img src="cat_image/1209274.jpg" width="50%">
+         
+     </div>
+     <div class="column">
+        <img src="cat_image/1209275.jpg" width="50%">
+        
+    </div>
+     <div class="column">
+         <img src="cat_image/pexels-cong-h-1404825.jpg " width="50%">
+        
+     </div>
+     <div class="column">
+         <img src="cat_image/pexels-marko-blazevic-774731.jpg" width="50%">
+         
+     </div>
+     
+   
+   <div class="column">
+        <img src="cat_image/1209300.jpg" width="50%">
+    
+    </div>
+    <div class="column">
+        <img src="cat_image/1209294.jpg" width="50%">
+    
+    </div>
+     
+    <div class="column">
+        <img src="cat_image/colourful_cat.jpeg" width="50%">
+        
+
+    </div>
+    <div class="column">
+        <img src="cat_image/528061.jpg" width="50%">
+    </div>
+   
+
+ 
+ 
+     </div>
+ </section>
+
+  <!------ Footer------->
+
+  <section class="footer">
+
+    <h4>About US</h4>
+    <p>  this is me from jaipur</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+    <p>Developed with <i class="fa fa-heart-o"></i> by Vijay Kumar</p>
+  </section>
+
+
+  <!------ JS for toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>
